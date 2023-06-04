@@ -8,11 +8,11 @@ public class BAB_Daphie {
 //    with three even numbers.
 
     public static void main(String args[]){
-        int [] val = {2, 4, 6, 8, 6};
+        int [] val = {4, 8, 6, 3, 2, 9, 8,11, 8, 13, 11, 12, 6};
         System.out.println(Daphie(val));
     }
 
-    public static int Daphie(int[] a) {
+    public static int DaphieX(int[] a) {
         //1. check if there is odd number.
         //2. find index at which even is changed to odd.
         // iterate with the lenght of the index if the first and last element are identical.
@@ -52,6 +52,34 @@ public class BAB_Daphie {
         return 1;
     }
 
+
+    public static int Daphie(int [] val){
+        boolean foundOdd = false;
+        for (int i = 0; i < val.length; i++) {
+            if(val[i]%2!=0){
+                foundOdd = true;
+                break;
+            }
+        }
+        int start = 0;
+        while (val[start]%2==0){
+            start++;
+        }
+        int finalIndex = val.length-1;
+        int end =0;
+
+        while ((val[finalIndex])%2==0){
+            finalIndex--;
+            end++;
+
+        }
+
+        if(foundOdd&&start==end){
+            return 1;
+        }
+
+        return 0;
+    }
 }
 
 
