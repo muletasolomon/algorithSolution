@@ -159,7 +159,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
+*.txt
 ### IntelliJ IDEA ###
 .idea
 *.iws
