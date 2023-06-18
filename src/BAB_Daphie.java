@@ -1,5 +1,5 @@
 public class BAB_Daphie {
-//    A Daphne array is defined to be an array that contains at least one odd number and begins and
+//    A_Evens Daphne array is defined to be an array that contains at least one odd number and begins and
 //    ends with the same number of even numbers.
 //    So {4, 8, 6, 3, 2, 9, 8,11, 8, 13, 12, 12, 6} is a Daphne array because it begins with three even
 //    numbers and ends with three even numbers and it contains at least one odd number

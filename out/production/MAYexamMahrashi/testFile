@@ -1,0 +1,20 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns2="http://ws.webgate.bpc.ru/">
+    <env:Header>
+        <ws:credentials xmlns:ws="http://ws.webgate.bpc.ru/">
+            <user>""</user>
+            <pass>""</pass>
+        </ws:credentials>
+    </env:Header>
+    <env:Body>
+        <ns2:nonCardTransferResponse xmlns:ns2="http://ws.webgate.bpc.ru/" xmlns="">
+            <reply>
+                <status>0</status>
+                <errorCode>WSR013</errorCode>
+                <internalErrorCode>05</internalErrorCode>
+                <errorDescription>Did not execute transaction</errorDescription>
+                <refnum>684677419019</refnum>
+                <localTransactionDateTime>2021-02-18T11:59:09.105+03:00</localTransactionDateTime>
+            </reply>
+        </ns2:nonCardTransferResponse>
+    </env:Body>
+</env:Envelope>

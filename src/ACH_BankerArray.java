@@ -1,6 +1,6 @@
 public class ACH_BankerArray {
     public static void main(String[] args) {
-//        A Bunker array is defined to be an array in which at least one odd number is immediately followed by a
+//        A_Evens Bunker array is defined to be an array in which at least one odd number is immediately followed by a
 //        prime number. So {4, 9, 6, 7, 3} is a Bunker array because the odd number 7 is immediately followed by the
 //        prime number 3. But {4, 9, 6, 15, 21} is not a Bunker array because none of the odd numbers are immediately
 //        followed by a prime number.

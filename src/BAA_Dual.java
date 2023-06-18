@@ -8,8 +8,9 @@ public class BAA_Dual {
 
     public static void main(String args[]){
         int [] input = {1, 2, 3, 0};
-        System.out.println(isDual(input));
+        System.out.println(isDuax(input));
     }
+
 
     public static int isDual(int [] a) {
         int sum = a[0]+a[1];
@@ -21,4 +22,51 @@ public class BAA_Dual {
         }
         return 1;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public static int isDuax(int [] a){
+        int val = a[0]+a[1];
+        int sum = 0;
+        for (int i = 2; i < a.length-1; i=+2) {
+            sum = a[i]+a[i+1];
+            if(val!=sum){
+                return 0;
+            }
+        }
+        return 1;
+    }
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+

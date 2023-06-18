@@ -1,5 +1,5 @@
 public class BA_NormalNumber {
-//    A normal number is defined to be one that has no odd factors, except for 1 and possibly itself.
+//    A_Evens normal number is defined to be one that has no odd factors, except for 1 and possibly itself.
 //    Write a method named isNormal that returns 1 if its integer argument is normal, otherwise it returns 0. The
 //    function signature is
 //    int isNormal(int n)
